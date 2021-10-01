@@ -1,0 +1,8 @@
+baseURL = "https://onl.rijnieks.com/"
+languageCode = "en-us"
+title = "Exploring ONL"
+copyright = "Krisjanis Rijnieks 2021"
+
+[params]
+description = "A blog to document my participation in the Open Networked Learning course"
+author = "Krisjanis Rijnieks"

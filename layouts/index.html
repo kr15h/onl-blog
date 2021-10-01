@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Site.Params.Description }}">
+  <meta name="author" content="{{ .Site.Params.Author }}">
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+
+  <!-- Bootstrap originals -->
+  <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+  <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#bada55">
+
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="/assets/css/blog.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="blog-header py-3 pb-4 mb-4">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1">
+          <a class="link-secondary" href="https://www.opennetworkedlearning.se/">ONL Main Page</a>
+        </div>
+        <div class="col-4 text-center">
+          <a class="blog-header-logo text-dark" href="#">{{ .Site.Title }}</a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <a class="link-secondary" href="https://rijnieks.com/">Personal Website</a>
+        </div>
+
+      </div>
+    </header>
+  </div>
+
+  <main class="container">
+    <div class="row g-5">
+
+      <!-- Blog posts -->
+      <div class="col-md-8">
+        {{ $posts := .Site.GetPage "posts" }}
+        {{ range $posts.Pages }}
+          {{ partial "post" . }}
+        {{ end }}
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 bg-light rounded">
+            {{ with .Site.GetPage "/about" }}
+              <h4 class="fst-italic">{{ .Title }}</h4>
+              {{ .Content }}
+            {{ end }}
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic">Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://rijnieks.com">Website</a></li>
+              <li><a href="https://twitter.com/kriwkrow">Twitter</a></li>
+              <li><a href="https://linkedin.com/in/krisjanisrijnieks">LinkedIn</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+
+
+  <footer class="blog-footer">
+    <p>&copy; {{ .Site.Copyright }}</p>
+    <p>Original <a href="https://getbootstrap.com/docs/5.1/examples/blog/">template</a> by <a href="https://twitter.com/mdo">@mdo</a></p>
+    <p><a href="#">Back to top</a></p>
+  </footer>
+</body>
+</html>
