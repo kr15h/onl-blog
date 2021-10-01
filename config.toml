@@ -1,6 +1,6 @@
 baseURL = "https://onl.rijnieks.com/"
 languageCode = "en-us"
-title = "Exploring ONL"
+title = "Kris's ONL Blog"
 copyright = "Krisjanis Rijnieks 2021"
 
 [params]
