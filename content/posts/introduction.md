@@ -10,7 +10,7 @@ I did have overlapping activities at the beginning of the course that prevented 
 
 For me the course started with one of the PBL meetings. My group has the number 03 and we had the first Zoom meeting on 29 September. We would meet each other and quickly realize that there is not much time and there are tasks to be done. One of the first one's was to create a team presentation and it was decided to make a [video](https://youtu.be/AWIrruulUP0) with short selfie clips done by each group participant.
 
-Here is a list of first useful things I found out about during the introductory weeks of the course.
+In this course I am looking for new methods and tools that I could later use in my own practice. Here is a list of first useful things I found out about during the introductory weeks of the course.
 
 - Having a central and easy to find planning document is nice.
 - While exploring other presentations I bumped into Google Jamboard which seems to be a good tool for brainstorming.
