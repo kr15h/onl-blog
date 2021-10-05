@@ -15,6 +15,6 @@ In this course I am looking for new methods and tools that I could later use in 
 - Having a central and easy to find planning document is nice.
 - While exploring other presentations I bumped into Google Jamboard which seems to be a good tool for brainstorming.
 - Learning agreement is something that one should have to define specific group collaboration rules.
-- Using the clock method is a good way of making sure that nobody has been left out from a discussion.
+- Using the clock method is a good way of making sure that everybody is included in a discussion.
 
 To conclude this post I want to say that you have to walk into the forest to understand what it is. Human mind needs time to absorb new content and this is also the case with ONL course. As for the next steps into the forest I will start to familiarize myself with the material that of Topic 1: Online participation and digital literacies.
