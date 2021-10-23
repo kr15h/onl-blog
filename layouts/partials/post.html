@@ -2,4 +2,6 @@
   <h2 class="blog-post-title">{{ .Title }}</h2>
   <p class="blog-post-meta">{{ .Date.Format "Mon, Jan 2, 2006"  }}</p>
   {{ .Content }}
+
+  <a href="{{ .Permalink }}" title="Read more and comment">Read more and comment</a>
 </article>
