@@ -3,8 +3,6 @@ languageCode = "en-us"
 title = "Kris's ONL Blog"
 copyright = "Krisjanis Rijnieks 2021"
 
-disqusShortname = "krisjanisrijnieks"
-
 [params]
 description = "A blog to document my participation in the Open Networked Learning course"
 author = "Krisjanis Rijnieks"
