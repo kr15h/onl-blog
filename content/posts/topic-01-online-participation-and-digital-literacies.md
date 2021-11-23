@@ -2,6 +2,7 @@
 title: "Topic 01: Online Participation and Digital Literacies"
 date: 2021-10-19T17:03:05+03:00
 draft: false
+mastodon: 107327472592853675
 ---
 
 This week felt like the actual beginning of the course. We started to talk to each other, and the structure of the conversation began to emerge, and we established rules of collaboration—many questions at the beginning and a bit less as we went along.

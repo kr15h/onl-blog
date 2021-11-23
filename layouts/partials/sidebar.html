@@ -1,0 +1,19 @@
+<!-- Sidebar -->
+<div class="position-sticky" style="top: 2rem;">
+  <div class="p-4 mb-3 bg-light rounded">
+    {{ with .Site.GetPage "/about" }}
+      <h4 class="fst-italic">{{ .Title }}</h4>
+      {{ .Content }}
+    {{ end }}
+  </div>
+
+  <div class="p-4">
+    <h4 class="fst-italic">Elsewhere</h4>
+    <ol class="list-unstyled">
+      <li><a href="https://rijnieks.com">Website</a></li>
+      <li><a href="https://github.com/kr15h">GitHub</a></li>
+      <li><a href="https://twitter.com/kriwkrow">Twitter</a></li>
+      <li><a href="https://linkedin.com/in/krisjanisrijnieks">LinkedIn</a></li>
+    </ol>
+  </div>
+</div>

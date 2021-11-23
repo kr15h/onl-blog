@@ -1,5 +1,6 @@
 <article class="blog-post">
   <h2 class="blog-post-title">{{ .Title }}</h2>
   <p class="blog-post-meta">{{ .Date.Format "Mon, Jan 2, 2006"  }}</p>
-  {{ .Content }}
+  <p>{{ .Summary }}</p>
+  <p class="permalink"><a href="{{ .Permalink }}">Read full article with comments</a></p>
 </article>

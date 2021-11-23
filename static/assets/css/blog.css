@@ -101,3 +101,33 @@ h1, h2, h3, h4, h5, h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+/*
+ * Comtodon
+ */
+.comtodon .avatar,
+.comtodon .name {
+  display: none;
+}
+
+.comtodon .status {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.comtodon .date {
+  display: inline;
+}
+
+.comtodon .date::after {
+  content: " by ";
+}
+
+.comtodon .acct::before {
+  content: "@";
+}
+
+.comtodon .replies {
+  padding-left: 2rem;
+  border-left: 1px solid #cccccc;
+}

@@ -2,6 +2,7 @@
 title: "Introduction"
 date: 2021-10-05T11:00:00+03:00
 draft: false
+mastodon: 107327504893584432
 ---
 
 I just got started with the ONL course and this is my first blog post about it. It took me some time to familiarize myself with all the guidelines, and I am sure that I missed some things, but I am also confident that these will be picked up along the way.

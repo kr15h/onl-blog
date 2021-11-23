@@ -1,9 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <title>{{ .Title }}</title>
+
+  {{ partial "head/meta.html" . }}
+  {{ partial "head/style.html" . }}
+  {{ partial "head/favicons.html" . }}
+
+</head>
 <body>
-<h1>{{ .Title }}</h1>
-<main>
-{{ .Content }}
-</main>
+
+  {{ partial "header/header.html" . }}
+
+  <main class="container">
+    <div class="row g-5">
+
+      <div class="col-md-8">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+
+        <section id="comments">
+          <h2>Comments</h2>
+          <div
+            class="comtodon"
+            data-domain="mastodon.social"
+            data-status="{{ .Params.Mastodon }}"
+            data-deep></div>
+        </section>
+      </div>
+
+      <div class="col-md-4">
+        {{ partial "sidebar.html" . }}
+      </div>
+
+    </div>
+  </main>
+
+{{ partial "footer/footer.html" . }}
+
+<script src="/assets/comtodon/comtodon.js" defer></script>
 
 </body>
 </html>
